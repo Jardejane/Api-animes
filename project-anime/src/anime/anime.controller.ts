@@ -10,7 +10,6 @@ import {
 import { AnimeService } from './anime.service';
 import { CreateAnimeDto } from './dto/create-anime.dto';
 import { UpdateAnimeDto } from './dto/update-anime.dto';
-
 @Controller('anime')
 export class AnimeController {
   constructor(private readonly animeService: AnimeService) {}

@@ -30,7 +30,7 @@ export class AnimeService {
         _id: id,
       },
       {
-        updateAnimeDto,
+        $set: updateAnimeDto,
       },
       {
         new: true,
